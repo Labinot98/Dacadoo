@@ -9,12 +9,30 @@
 /* Begin PBXBuildFile section */
 		2D26D5342BF3537F006AD5F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5332BF3537F006AD5F6 /* AppDelegate.swift */; };
 		2D26D5362BF3537F006AD5F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5352BF3537F006AD5F6 /* SceneDelegate.swift */; };
-		2D26D5382BF3537F006AD5F6 /* CountryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5372BF3537F006AD5F6 /* CountryListVC.swift */; };
+		2D26D5382BF3537F006AD5F6 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5372BF3537F006AD5F6 /* SearchVC.swift */; };
 		2D26D53D2BF35380006AD5F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D26D53C2BF35380006AD5F6 /* Assets.xcassets */; };
 		2D26D5402BF35380006AD5F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D26D53E2BF35380006AD5F6 /* LaunchScreen.storyboard */; };
 		2D26D54B2BF35380006AD5F6 /* DacadooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D54A2BF35380006AD5F6 /* DacadooTests.swift */; };
 		2D26D5552BF35380006AD5F6 /* DacadooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5542BF35380006AD5F6 /* DacadooUITests.swift */; };
 		2D26D5572BF35380006AD5F6 /* DacadooUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5562BF35380006AD5F6 /* DacadooUITestsLaunchTests.swift */; };
+		2D26D5692BF35AAC006AD5F6 /* DCDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5682BF35AAC006AD5F6 /* DCDButton.swift */; };
+		2D26D56B2BF35B24006AD5F6 /* DCDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D56A2BF35B24006AD5F6 /* DCDTextField.swift */; };
+		2D26D56E2BF35C60006AD5F6 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D56D2BF35C60006AD5F6 /* UIView+Ext.swift */; };
+		2D26D5702BF35DA6006AD5F6 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D56F2BF35DA6006AD5F6 /* UIViewController+Ext.swift */; };
+		2D26D5732BF35DF6006AD5F6 /* DCDAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5722BF35DF6006AD5F6 /* DCDAlertVC.swift */; };
+		2D26D5762BF35E6A006AD5F6 /* DCDAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5752BF35E6A006AD5F6 /* DCDAlertContainerView.swift */; };
+		2D26D5782BF35E9E006AD5F6 /* DCDTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5772BF35E9E006AD5F6 /* DCDTitleLabel.swift */; };
+		2D26D57A2BF35EC0006AD5F6 /* DCDBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5792BF35EC0006AD5F6 /* DCDBodyLabel.swift */; };
+		2D26D57D2BF35FAA006AD5F6 /* DCDEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D57C2BF35FAA006AD5F6 /* DCDEmptyStateView.swift */; };
+		2D26D5802BF35FF0006AD5F6 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D57F2BF35FF0006AD5F6 /* Constans.swift */; };
+		2D26D5822BF373A8006AD5F6 /* SearchedListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5812BF373A8006AD5F6 /* SearchedListVC.swift */; };
+		2D26D5842BF373F8006AD5F6 /* DCDDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5832BF373F8006AD5F6 /* DCDDataLoadingVC.swift */; };
+		2D26D5872BF3771E006AD5F6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5862BF3771E006AD5F6 /* NetworkManager.swift */; };
+		2D26D5892BF393C5006AD5F6 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5882BF393C5006AD5F6 /* PhotoCell.swift */; };
+		2D26D58C2BF3A166006AD5F6 /* DCDImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D58B2BF3A166006AD5F6 /* DCDImageView.swift */; };
+		2D26D58F2BF3A360006AD5F6 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D58E2BF3A360006AD5F6 /* Photo.swift */; };
+		2D26D5922BF3A630006AD5F6 /* PhotoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5912BF3A630006AD5F6 /* PhotoDetailVC.swift */; };
+		2D26D5972BF3E5D7006AD5F6 /* TableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5962BF3E5D7006AD5F6 /* TableViewManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +56,7 @@
 		2D26D5302BF3537F006AD5F6 /* Dacadoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dacadoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D26D5332BF3537F006AD5F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D26D5352BF3537F006AD5F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D26D5372BF3537F006AD5F6 /* CountryListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListVC.swift; sourceTree = "<group>"; };
+		2D26D5372BF3537F006AD5F6 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		2D26D53C2BF35380006AD5F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D26D53F2BF35380006AD5F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D26D5412BF35380006AD5F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +65,24 @@
 		2D26D5502BF35380006AD5F6 /* DacadooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DacadooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D26D5542BF35380006AD5F6 /* DacadooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DacadooUITests.swift; sourceTree = "<group>"; };
 		2D26D5562BF35380006AD5F6 /* DacadooUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DacadooUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D26D5682BF35AAC006AD5F6 /* DCDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCDButton.swift; sourceTree = "<group>"; };
+		2D26D56A2BF35B24006AD5F6 /* DCDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCDTextField.swift; sourceTree = "<group>"; };
+		2D26D56D2BF35C60006AD5F6 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		2D26D56F2BF35DA6006AD5F6 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		2D26D5722BF35DF6006AD5F6 /* DCDAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCDAlertVC.swift; sourceTree = "<group>"; };
+		2D26D5752BF35E6A006AD5F6 /* DCDAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCDAlertContainerView.swift; sourceTree = "<group>"; };
+		2D26D5772BF35E9E006AD5F6 /* DCDTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCDTitleLabel.swift; sourceTree = "<group>"; };
+		2D26D5792BF35EC0006AD5F6 /* DCDBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCDBodyLabel.swift; sourceTree = "<group>"; };
+		2D26D57C2BF35FAA006AD5F6 /* DCDEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCDEmptyStateView.swift; sourceTree = "<group>"; };
+		2D26D57F2BF35FF0006AD5F6 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		2D26D5812BF373A8006AD5F6 /* SearchedListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedListVC.swift; sourceTree = "<group>"; };
+		2D26D5832BF373F8006AD5F6 /* DCDDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCDDataLoadingVC.swift; sourceTree = "<group>"; };
+		2D26D5862BF3771E006AD5F6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2D26D5882BF393C5006AD5F6 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		2D26D58B2BF3A166006AD5F6 /* DCDImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCDImageView.swift; sourceTree = "<group>"; };
+		2D26D58E2BF3A360006AD5F6 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		2D26D5912BF3A630006AD5F6 /* PhotoDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailVC.swift; sourceTree = "<group>"; };
+		2D26D5962BF3E5D7006AD5F6 /* TableViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +133,13 @@
 		2D26D5322BF3537F006AD5F6 /* Dacadoo */ = {
 			isa = PBXGroup;
 			children = (
-				2D26D5332BF3537F006AD5F6 /* AppDelegate.swift */,
-				2D26D5352BF3537F006AD5F6 /* SceneDelegate.swift */,
-				2D26D5372BF3537F006AD5F6 /* CountryListVC.swift */,
-				2D26D53C2BF35380006AD5F6 /* Assets.xcassets */,
-				2D26D53E2BF35380006AD5F6 /* LaunchScreen.storyboard */,
+				2D26D58D2BF3A340006AD5F6 /* Model */,
+				2D26D5852BF37709006AD5F6 /* Managers */,
+				2D26D57E2BF35FE4006AD5F6 /* Utilites */,
+				2D26D56C2BF35C4A006AD5F6 /* Extension */,
+				2D26D5652BF3576C006AD5F6 /* Custom Views */,
+				2D26D5642BF3574E006AD5F6 /* Support */,
+				2D26D5632BF35740006AD5F6 /* Screens */,
 				2D26D5412BF35380006AD5F6 /* Info.plist */,
 			);
 			path = Dacadoo;
@@ -122,6 +160,142 @@
 				2D26D5562BF35380006AD5F6 /* DacadooUITestsLaunchTests.swift */,
 			);
 			path = DacadooUITests;
+			sourceTree = "<group>";
+		};
+		2D26D5632BF35740006AD5F6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D5372BF3537F006AD5F6 /* SearchVC.swift */,
+				2D26D5812BF373A8006AD5F6 /* SearchedListVC.swift */,
+				2D26D5912BF3A630006AD5F6 /* PhotoDetailVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2D26D5642BF3574E006AD5F6 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D5332BF3537F006AD5F6 /* AppDelegate.swift */,
+				2D26D5352BF3537F006AD5F6 /* SceneDelegate.swift */,
+				2D26D53C2BF35380006AD5F6 /* Assets.xcassets */,
+				2D26D53E2BF35380006AD5F6 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		2D26D5652BF3576C006AD5F6 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D5952BF3E5BC006AD5F6 /* TableViewManager */,
+				2D26D5902BF3A616006AD5F6 /* Cell */,
+				2D26D58A2BF3A148006AD5F6 /* ImageViews */,
+				2D26D57B2BF35F5C006AD5F6 /* Views */,
+				2D26D5742BF35E47006AD5F6 /* Labels */,
+				2D26D5712BF35DDB006AD5F6 /* ViewControllers */,
+				2D26D5672BF35782006AD5F6 /* Buttons */,
+				2D26D5662BF35779006AD5F6 /* TextFields */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		2D26D5662BF35779006AD5F6 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D56A2BF35B24006AD5F6 /* DCDTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		2D26D5672BF35782006AD5F6 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D5682BF35AAC006AD5F6 /* DCDButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		2D26D56C2BF35C4A006AD5F6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D56D2BF35C60006AD5F6 /* UIView+Ext.swift */,
+				2D26D56F2BF35DA6006AD5F6 /* UIViewController+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2D26D5712BF35DDB006AD5F6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D5722BF35DF6006AD5F6 /* DCDAlertVC.swift */,
+				2D26D5832BF373F8006AD5F6 /* DCDDataLoadingVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2D26D5742BF35E47006AD5F6 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D5772BF35E9E006AD5F6 /* DCDTitleLabel.swift */,
+				2D26D5792BF35EC0006AD5F6 /* DCDBodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		2D26D57B2BF35F5C006AD5F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D5752BF35E6A006AD5F6 /* DCDAlertContainerView.swift */,
+				2D26D57C2BF35FAA006AD5F6 /* DCDEmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D26D57E2BF35FE4006AD5F6 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D57F2BF35FF0006AD5F6 /* Constans.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		2D26D5852BF37709006AD5F6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D5862BF3771E006AD5F6 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2D26D58A2BF3A148006AD5F6 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D58B2BF3A166006AD5F6 /* DCDImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		2D26D58D2BF3A340006AD5F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D58E2BF3A360006AD5F6 /* Photo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D26D5902BF3A616006AD5F6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D5882BF393C5006AD5F6 /* PhotoCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2D26D5952BF3E5BC006AD5F6 /* TableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D5962BF3E5D7006AD5F6 /* TableViewManager.swift */,
+			);
+			path = TableViewManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +428,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D26D5382BF3537F006AD5F6 /* CountryListVC.swift in Sources */,
+				2D26D57D2BF35FAA006AD5F6 /* DCDEmptyStateView.swift in Sources */,
+				2D26D5382BF3537F006AD5F6 /* SearchVC.swift in Sources */,
+				2D26D5782BF35E9E006AD5F6 /* DCDTitleLabel.swift in Sources */,
 				2D26D5342BF3537F006AD5F6 /* AppDelegate.swift in Sources */,
+				2D26D5872BF3771E006AD5F6 /* NetworkManager.swift in Sources */,
+				2D26D5892BF393C5006AD5F6 /* PhotoCell.swift in Sources */,
+				2D26D57A2BF35EC0006AD5F6 /* DCDBodyLabel.swift in Sources */,
+				2D26D5822BF373A8006AD5F6 /* SearchedListVC.swift in Sources */,
+				2D26D5702BF35DA6006AD5F6 /* UIViewController+Ext.swift in Sources */,
+				2D26D5802BF35FF0006AD5F6 /* Constans.swift in Sources */,
+				2D26D5972BF3E5D7006AD5F6 /* TableViewManager.swift in Sources */,
+				2D26D56E2BF35C60006AD5F6 /* UIView+Ext.swift in Sources */,
 				2D26D5362BF3537F006AD5F6 /* SceneDelegate.swift in Sources */,
+				2D26D5922BF3A630006AD5F6 /* PhotoDetailVC.swift in Sources */,
+				2D26D58F2BF3A360006AD5F6 /* Photo.swift in Sources */,
+				2D26D5692BF35AAC006AD5F6 /* DCDButton.swift in Sources */,
+				2D26D56B2BF35B24006AD5F6 /* DCDTextField.swift in Sources */,
+				2D26D5842BF373F8006AD5F6 /* DCDDataLoadingVC.swift in Sources */,
+				2D26D5762BF35E6A006AD5F6 /* DCDAlertContainerView.swift in Sources */,
+				2D26D5732BF35DF6006AD5F6 /* DCDAlertVC.swift in Sources */,
+				2D26D58C2BF3A166006AD5F6 /* DCDImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +622,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MMLNF3BF4U;
+				DEVELOPMENT_TEAM = 9SAKD3D8J6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Dacadoo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -460,7 +652,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MMLNF3BF4U;
+				DEVELOPMENT_TEAM = 9SAKD3D8J6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Dacadoo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
