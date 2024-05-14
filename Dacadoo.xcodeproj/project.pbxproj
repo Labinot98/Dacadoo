@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D26D5342BF3537F006AD5F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5332BF3537F006AD5F6 /* AppDelegate.swift */; };
+		2D26D5362BF3537F006AD5F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5352BF3537F006AD5F6 /* SceneDelegate.swift */; };
+		2D26D5382BF3537F006AD5F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5372BF3537F006AD5F6 /* ViewController.swift */; };
+		2D26D53B2BF3537F006AD5F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D26D5392BF3537F006AD5F6 /* Main.storyboard */; };
+		2D26D53D2BF35380006AD5F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D26D53C2BF35380006AD5F6 /* Assets.xcassets */; };
+		2D26D5402BF35380006AD5F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D26D53E2BF35380006AD5F6 /* LaunchScreen.storyboard */; };
+		2D26D54B2BF35380006AD5F6 /* DacadooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D54A2BF35380006AD5F6 /* DacadooTests.swift */; };
+		2D26D5552BF35380006AD5F6 /* DacadooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5542BF35380006AD5F6 /* DacadooUITests.swift */; };
+		2D26D5572BF35380006AD5F6 /* DacadooUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5562BF35380006AD5F6 /* DacadooUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D26D5472BF35380006AD5F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D26D5282BF3537F006AD5F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D26D52F2BF3537F006AD5F6;
+			remoteInfo = Dacadoo;
+		};
+		2D26D5512BF35380006AD5F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D26D5282BF3537F006AD5F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D26D52F2BF3537F006AD5F6;
+			remoteInfo = Dacadoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D26D5302BF3537F006AD5F6 /* Dacadoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dacadoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D26D5332BF3537F006AD5F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D26D5352BF3537F006AD5F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D26D5372BF3537F006AD5F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D26D53A2BF3537F006AD5F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D26D53C2BF35380006AD5F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D26D53F2BF35380006AD5F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D26D5412BF35380006AD5F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D26D5462BF35380006AD5F6 /* DacadooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DacadooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D26D54A2BF35380006AD5F6 /* DacadooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DacadooTests.swift; sourceTree = "<group>"; };
+		2D26D5502BF35380006AD5F6 /* DacadooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DacadooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D26D5542BF35380006AD5F6 /* DacadooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DacadooUITests.swift; sourceTree = "<group>"; };
+		2D26D5562BF35380006AD5F6 /* DacadooUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DacadooUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D26D52D2BF3537F006AD5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D26D5432BF35380006AD5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D26D54D2BF35380006AD5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D26D5272BF3537F006AD5F6 = {
+			isa = PBXGroup;
+			children = (
+				2D26D5322BF3537F006AD5F6 /* Dacadoo */,
+				2D26D5492BF35380006AD5F6 /* DacadooTests */,
+				2D26D5532BF35380006AD5F6 /* DacadooUITests */,
+				2D26D5312BF3537F006AD5F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D26D5312BF3537F006AD5F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D5302BF3537F006AD5F6 /* Dacadoo.app */,
+				2D26D5462BF35380006AD5F6 /* DacadooTests.xctest */,
+				2D26D5502BF35380006AD5F6 /* DacadooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D26D5322BF3537F006AD5F6 /* Dacadoo */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D5332BF3537F006AD5F6 /* AppDelegate.swift */,
+				2D26D5352BF3537F006AD5F6 /* SceneDelegate.swift */,
+				2D26D5372BF3537F006AD5F6 /* ViewController.swift */,
+				2D26D5392BF3537F006AD5F6 /* Main.storyboard */,
+				2D26D53C2BF35380006AD5F6 /* Assets.xcassets */,
+				2D26D53E2BF35380006AD5F6 /* LaunchScreen.storyboard */,
+				2D26D5412BF35380006AD5F6 /* Info.plist */,
+			);
+			path = Dacadoo;
+			sourceTree = "<group>";
+		};
+		2D26D5492BF35380006AD5F6 /* DacadooTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D54A2BF35380006AD5F6 /* DacadooTests.swift */,
+			);
+			path = DacadooTests;
+			sourceTree = "<group>";
+		};
+		2D26D5532BF35380006AD5F6 /* DacadooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D26D5542BF35380006AD5F6 /* DacadooUITests.swift */,
+				2D26D5562BF35380006AD5F6 /* DacadooUITestsLaunchTests.swift */,
+			);
+			path = DacadooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D26D52F2BF3537F006AD5F6 /* Dacadoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D26D55A2BF35380006AD5F6 /* Build configuration list for PBXNativeTarget "Dacadoo" */;
+			buildPhases = (
+				2D26D52C2BF3537F006AD5F6 /* Sources */,
+				2D26D52D2BF3537F006AD5F6 /* Frameworks */,
+				2D26D52E2BF3537F006AD5F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dacadoo;
+			productName = Dacadoo;
+			productReference = 2D26D5302BF3537F006AD5F6 /* Dacadoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D26D5452BF35380006AD5F6 /* DacadooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D26D55D2BF35380006AD5F6 /* Build configuration list for PBXNativeTarget "DacadooTests" */;
+			buildPhases = (
+				2D26D5422BF35380006AD5F6 /* Sources */,
+				2D26D5432BF35380006AD5F6 /* Frameworks */,
+				2D26D5442BF35380006AD5F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D26D5482BF35380006AD5F6 /* PBXTargetDependency */,
+			);
+			name = DacadooTests;
+			productName = DacadooTests;
+			productReference = 2D26D5462BF35380006AD5F6 /* DacadooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D26D54F2BF35380006AD5F6 /* DacadooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D26D5602BF35380006AD5F6 /* Build configuration list for PBXNativeTarget "DacadooUITests" */;
+			buildPhases = (
+				2D26D54C2BF35380006AD5F6 /* Sources */,
+				2D26D54D2BF35380006AD5F6 /* Frameworks */,
+				2D26D54E2BF35380006AD5F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D26D5522BF35380006AD5F6 /* PBXTargetDependency */,
+			);
+			name = DacadooUITests;
+			productName = DacadooUITests;
+			productReference = 2D26D5502BF35380006AD5F6 /* DacadooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D26D5282BF3537F006AD5F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2D26D52F2BF3537F006AD5F6 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					2D26D5452BF35380006AD5F6 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2D26D52F2BF3537F006AD5F6;
+					};
+					2D26D54F2BF35380006AD5F6 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2D26D52F2BF3537F006AD5F6;
+					};
+				};
+			};
+			buildConfigurationList = 2D26D52B2BF3537F006AD5F6 /* Build configuration list for PBXProject "Dacadoo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D26D5272BF3537F006AD5F6;
+			productRefGroup = 2D26D5312BF3537F006AD5F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D26D52F2BF3537F006AD5F6 /* Dacadoo */,
+				2D26D5452BF35380006AD5F6 /* DacadooTests */,
+				2D26D54F2BF35380006AD5F6 /* DacadooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D26D52E2BF3537F006AD5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D26D5402BF35380006AD5F6 /* LaunchScreen.storyboard in Resources */,
+				2D26D53D2BF35380006AD5F6 /* Assets.xcassets in Resources */,
+				2D26D53B2BF3537F006AD5F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D26D5442BF35380006AD5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D26D54E2BF35380006AD5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D26D52C2BF3537F006AD5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D26D5382BF3537F006AD5F6 /* ViewController.swift in Sources */,
+				2D26D5342BF3537F006AD5F6 /* AppDelegate.swift in Sources */,
+				2D26D5362BF3537F006AD5F6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D26D5422BF35380006AD5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D26D54B2BF35380006AD5F6 /* DacadooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D26D54C2BF35380006AD5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D26D5572BF35380006AD5F6 /* DacadooUITestsLaunchTests.swift in Sources */,
+				2D26D5552BF35380006AD5F6 /* DacadooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D26D5482BF35380006AD5F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D26D52F2BF3537F006AD5F6 /* Dacadoo */;
+			targetProxy = 2D26D5472BF35380006AD5F6 /* PBXContainerItemProxy */;
+		};
+		2D26D5522BF35380006AD5F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D26D52F2BF3537F006AD5F6 /* Dacadoo */;
+			targetProxy = 2D26D5512BF35380006AD5F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D26D5392BF3537F006AD5F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D26D53A2BF3537F006AD5F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D26D53E2BF35380006AD5F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D26D53F2BF35380006AD5F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D26D5582BF35380006AD5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D26D5592BF35380006AD5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D26D55B2BF35380006AD5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMLNF3BF4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dacadoo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClickITDev.Dacadoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D26D55C2BF35380006AD5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMLNF3BF4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dacadoo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClickITDev.Dacadoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D26D55E2BF35380006AD5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMLNF3BF4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClickITDev.DacadooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dacadoo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dacadoo";
+			};
+			name = Debug;
+		};
+		2D26D55F2BF35380006AD5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMLNF3BF4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClickITDev.DacadooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dacadoo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dacadoo";
+			};
+			name = Release;
+		};
+		2D26D5612BF35380006AD5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMLNF3BF4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClickITDev.DacadooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dacadoo;
+			};
+			name = Debug;
+		};
+		2D26D5622BF35380006AD5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMLNF3BF4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ClickITDev.DacadooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dacadoo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D26D52B2BF3537F006AD5F6 /* Build configuration list for PBXProject "Dacadoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D26D5582BF35380006AD5F6 /* Debug */,
+				2D26D5592BF35380006AD5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D26D55A2BF35380006AD5F6 /* Build configuration list for PBXNativeTarget "Dacadoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D26D55B2BF35380006AD5F6 /* Debug */,
+				2D26D55C2BF35380006AD5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D26D55D2BF35380006AD5F6 /* Build configuration list for PBXNativeTarget "DacadooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D26D55E2BF35380006AD5F6 /* Debug */,
+				2D26D55F2BF35380006AD5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D26D5602BF35380006AD5F6 /* Build configuration list for PBXNativeTarget "DacadooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D26D5612BF35380006AD5F6 /* Debug */,
+				2D26D5622BF35380006AD5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D26D5282BF3537F006AD5F6 /* Project object */;
+}
