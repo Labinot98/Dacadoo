@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		2D26D5342BF3537F006AD5F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5332BF3537F006AD5F6 /* AppDelegate.swift */; };
 		2D26D5362BF3537F006AD5F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5352BF3537F006AD5F6 /* SceneDelegate.swift */; };
-		2D26D5382BF3537F006AD5F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5372BF3537F006AD5F6 /* ViewController.swift */; };
-		2D26D53B2BF3537F006AD5F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D26D5392BF3537F006AD5F6 /* Main.storyboard */; };
+		2D26D5382BF3537F006AD5F6 /* CountryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D5372BF3537F006AD5F6 /* CountryListVC.swift */; };
 		2D26D53D2BF35380006AD5F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D26D53C2BF35380006AD5F6 /* Assets.xcassets */; };
 		2D26D5402BF35380006AD5F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D26D53E2BF35380006AD5F6 /* LaunchScreen.storyboard */; };
 		2D26D54B2BF35380006AD5F6 /* DacadooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D26D54A2BF35380006AD5F6 /* DacadooTests.swift */; };
@@ -39,8 +38,7 @@
 		2D26D5302BF3537F006AD5F6 /* Dacadoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dacadoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D26D5332BF3537F006AD5F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D26D5352BF3537F006AD5F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D26D5372BF3537F006AD5F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2D26D53A2BF3537F006AD5F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D26D5372BF3537F006AD5F6 /* CountryListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListVC.swift; sourceTree = "<group>"; };
 		2D26D53C2BF35380006AD5F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D26D53F2BF35380006AD5F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D26D5412BF35380006AD5F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,8 +99,7 @@
 			children = (
 				2D26D5332BF3537F006AD5F6 /* AppDelegate.swift */,
 				2D26D5352BF3537F006AD5F6 /* SceneDelegate.swift */,
-				2D26D5372BF3537F006AD5F6 /* ViewController.swift */,
-				2D26D5392BF3537F006AD5F6 /* Main.storyboard */,
+				2D26D5372BF3537F006AD5F6 /* CountryListVC.swift */,
 				2D26D53C2BF35380006AD5F6 /* Assets.xcassets */,
 				2D26D53E2BF35380006AD5F6 /* LaunchScreen.storyboard */,
 				2D26D5412BF35380006AD5F6 /* Info.plist */,
@@ -233,7 +230,6 @@
 			files = (
 				2D26D5402BF35380006AD5F6 /* LaunchScreen.storyboard in Resources */,
 				2D26D53D2BF35380006AD5F6 /* Assets.xcassets in Resources */,
-				2D26D53B2BF3537F006AD5F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D26D5382BF3537F006AD5F6 /* ViewController.swift in Sources */,
+				2D26D5382BF3537F006AD5F6 /* CountryListVC.swift in Sources */,
 				2D26D5342BF3537F006AD5F6 /* AppDelegate.swift in Sources */,
 				2D26D5362BF3537F006AD5F6 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2D26D5392BF3537F006AD5F6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D26D53A2BF3537F006AD5F6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2D26D53E2BF35380006AD5F6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,9 +435,8 @@
 				INFOPLIST_FILE = Dacadoo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,9 +444,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ClickITDev.Dacadoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -475,9 +465,8 @@
 				INFOPLIST_FILE = Dacadoo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,9 +474,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ClickITDev.Dacadoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
