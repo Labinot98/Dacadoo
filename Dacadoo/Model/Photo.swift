@@ -7,15 +7,14 @@
 
 import Foundation
 
-struct Photo: Codable {
+struct Photo: Codable, Equatable {
     let urls: PhotoURLs
     let altDescription: String?
 }
 
-struct PhotoURLs: Codable {
+struct PhotoURLs: Codable, Equatable {
     let regular: String
     let full: String
-    
 }
 
 struct SearchResult: Codable {

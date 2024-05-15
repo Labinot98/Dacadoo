@@ -10,7 +10,7 @@ import UIKit
 class TableViewManager<Item, Cell: UITableViewCell>: NSObject, UITableViewDelegate, UITableViewDataSource {
     var items: [Item] = []
     let configureCell: (Cell, Item) -> Void
-    let didSelectItem: ((Item) -> Void)?
+    var didSelectItem: ((Item) -> Void)?
 
     init(items: [Item], configureCell: @escaping (Cell, Item) -> Void, didSelectItem: ((Item) -> Void)? = nil) {
         self.items = items
