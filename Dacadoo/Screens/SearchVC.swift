@@ -9,7 +9,7 @@ import UIKit
 
 class SearchVC: UIViewController {
     let logoImageView       = UIImageView()
-    let searchTextField    = DCDTextField()
+    let searchTextField     = DCDTextField()
     let searchButton        = DCDButton(backgroundColor: .systemGreen, title: "Get Photos")
     
     var isCountryTextField: Bool { return !searchTextField.text!.isEmpty }
@@ -20,7 +20,7 @@ class SearchVC: UIViewController {
         view.backgroundColor = .systemBackground
         view.addSubview(logoImageView, searchTextField, searchButton)
         configureLogoImageView()
-        configureCountryTextField()
+        configureTextField()
         configureSearchButton()
         createDismissKeyboardTapGesture()
     }
@@ -36,7 +36,7 @@ class SearchVC: UIViewController {
         view.addGestureRecognizer(tap)
     }
     
-    @objc func pushFollowerListVC() {
+    @objc func pushToListVC() {
         guard isCountryTextField else {
             presentDCDAlertOnMainThread(title: "Attention",
                                        message: "Please write something in field. We need to know what to look for 🙂.",
@@ -67,7 +67,7 @@ class SearchVC: UIViewController {
         ])
     }
 
-    private func configureCountryTextField() {
+    private func configureTextField() {
         searchTextField.delegate = self
         searchTextField.translatesAutoresizingMaskIntoConstraints = false
 
@@ -80,7 +80,7 @@ class SearchVC: UIViewController {
     }
     
     private func configureSearchButton() {
-        searchButton.addTarget(self, action: #selector(pushFollowerListVC), for: .touchUpInside)
+        searchButton.addTarget(self, action: #selector(pushToListVC), for: .touchUpInside)
         
         NSLayoutConstraint.activate([
             searchButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -50),
@@ -93,7 +93,7 @@ class SearchVC: UIViewController {
 
 extension SearchVC: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        pushFollowerListVC()
+        pushToListVC()
         return true
     }
 }

@@ -59,7 +59,6 @@ class NetworkManagerTests: XCTestCase {
             case .success:
                 XCTFail("Expected failure, got success")
             case .failure(let error):
-                // Then
                 if case .networkError(let networkError) = error {
                     XCTAssertEqual(networkError.localizedDescription, mockSession.error?.localizedDescription)
                 } else {
